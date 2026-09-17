@@ -222,3 +222,118 @@ Public-Service-Complaint-Analytics
 ├── screenshots
 │
 └── README.md
+```
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/smrutisync/Public-Service-Complaint-Analytics.git
+```
+
+### 2. Open MySQL Workbench
+
+Create or select the database:
+
+```sql
+CREATE DATABASE public_service_analytics;
+USE public_service_analytics;
+```
+
+### 3. Execute SQL Script
+
+Run:
+
+```text
+sql/public_service_analytics.sql
+```
+
+The SQL script creates the database tables, inserts the dataset, creates indexes and analytical views, and performs the required analysis.
+
+### 4. Open Power BI
+
+Open:
+
+```text
+powerbi/public_service_complaint_analytics.pbix
+```
+
+Connect Power BI to the MySQL database if required.
+
+---
+
+## 💡 Key Analytical Areas
+
+The project focuses on answering questions such as:
+
+- Which departments receive the most complaints?
+- Which complaint categories occur most frequently?
+- How long does it take to resolve complaints?
+- Which complaints have high severity?
+- How many complaints breach their SLA?
+- Which departments have potential resolution bottlenecks?
+- Which complaint categories should receive higher priority?
+- How satisfied are citizens with resolved complaints?
+
+---
+
+## 📌 Skills Demonstrated
+
+### SQL
+
+- Database Design
+- Primary & Foreign Keys
+- Joins
+- Aggregations
+- GROUP BY
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- CASE Statements
+- Views
+- Indexing
+
+### Power BI
+
+- Data Modeling
+- Relationships
+- DAX Measures
+- KPI Cards
+- Bar Charts
+- Line Charts
+- Donut Charts
+- Slicers
+- Dashboard Design
+
+### Analytics
+
+- KPI Analysis
+- Trend Analysis
+- SLA Analysis
+- Performance Analysis
+- Priority Ranking
+- Data Visualization
+
+
+---
+
+## 👨‍💻 Author
+
+**Smruti Ranjan Nayak**
+
+B.Tech – Computer Science & Engineering
+
+Siksha 'O' Anusandhan (SOA) University
+```
+
+After pasting, press **Ctrl + S**.
+
+Then, in the **VS Code terminal** (not inside the README), run:
+
+```bash
+git add README.md
+git commit -m "Add project README"
+git push
+```
+
+After that, refresh your GitHub repository and the README should appear on the project homepage.
